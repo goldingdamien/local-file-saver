@@ -1,0 +1,33 @@
+<html>
+  
+  <head>
+    <script src="./js/scripts.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <meta charset="utf-8">
+  </head>
+  
+  <body>
+    <h1>Save local files</h1>
+    
+    <form id="form" method="post" action="./server/php/index.php" enctype='multipart/form-data'>
+      
+      <!-- FILE LOADER START -->
+      <span>Sending: </span><span id="sendingStatus">×</span>
+      <span>Files: </span><span id="fileCount">0</span>
+      <span>Complete: </span><span id="completeCount">0</span>
+      <span>Failed: </span><span id="failedCount">0</span>
+      
+      <label for="file" class="button">File</label>
+      <input id="file" type="file" value="File" name="userFiles[]" multiple="multiple" style="display:none;">
+      <div id="dropArea">
+        <span>Drop here</span>
+      </div>
+      <!-- FILE LOADER END -->
+      
+      <input id="submit" type="submit" class="button" value="Save">
+    </form>
+    
+  </body>
+  
+</html>

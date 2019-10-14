@@ -1,0 +1,18 @@
+{
+  "name": "local-file-saver",
+  "version": "1.0.0",
+  "description": "Send file data over local WiFi connection using JavaScript.",
+  "scripts": {
+    "start": "gulp connect-sync"
+  },
+  "author": "Damien Golding",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-connect-php": "^1.0.3"
+  },
+  "dependencies": {
+    "dev-ip": "^1.0.1"
+  }
+}
