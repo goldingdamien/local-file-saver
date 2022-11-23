@@ -8,7 +8,7 @@
   "author": "Damien Golding",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
     "gulp-connect-php": "^1.0.3"
   },
